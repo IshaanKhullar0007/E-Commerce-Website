@@ -1,0 +1,91 @@
+body{
+    margin: 0px 0px;
+    padding: 0px;
+}
+#li1{
+    padding-left:50px;
+}
+.navbar{
+    background-color: rgba(255, 228, 196, 0.835);
+    border-radius: 5px;
+    position: sticky;
+    margin-top: 0px;
+    border: 1.5px solid black;
+    margin-bottom: 2px;
+}
+.navbar li{
+    float:left;
+    list-style: none;
+    padding: 5px 15px;
+    padding-top: 9px;
+    margin:10px;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    color: blue;
+}
+.navbar .logo{
+    float:left;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.search input{
+    float: right;
+    margin: 23px 45px;
+    border-radius: 7px;
+}
+.logo{
+    width: 4cm;
+    height: 1.5cm;
+    margin-top: 6px;
+}
+header+img{
+    width: 260px;
+    height: 380px;
+    margin-left: 475px;
+}
+#a{
+    font-size: 40px;
+    color: rgb(60, 1, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 42px;
+}
+#b{
+    font-size: 25px;
+    text-decoration: line-through;
+    text-align: center;
+    margin-right: 42px;
+
+}
+#c{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 42px;
+}
+.content{
+    border: 2px solid black;
+    background-color: rgba(213, 210, 207, 0.645);
+}
+span{
+    color: rgb(255, 6, 6);
+}
+#js{
+    margin-left: 531px;
+    height: 45px;
+    width: 161px;
+    background-color: rgb(249, 215, 103);
+    border-radius: 11px;
+    cursor: pointer;
+}
+#js:hover{
+    background-color: rgb(241, 194, 37);
+    transform: scale(1.1,1.1);
+}

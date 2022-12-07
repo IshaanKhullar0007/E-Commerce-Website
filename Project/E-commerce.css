@@ -1,0 +1,150 @@
+body{
+    margin: 0px 0px;
+    padding: 0px;
+}
+#li1{
+    padding-left:50px;
+}
+.navbar{
+    background-color: rgba(255, 228, 196, 0.835);
+    border-radius: 5px;
+    margin-top: 0px;
+    border: 1.5px solid black;
+    margin-bottom: 2px;
+}
+.navbar li{
+    float:left;
+    list-style: none;
+    padding: 5px 15px;
+    padding-top: 9px;
+    margin:10px;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    color: blue;
+}
+.navbar .logo{
+    float:left;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.search input{
+    float: right;
+    margin: 23px 45px;
+    border-radius: 7px;
+}
+.logo{
+    width: 4cm;
+    height: 1.5cm;
+    margin-top: 6px;
+}
+#deal{
+    
+    width: 100%;
+    opacity: 0.9;
+}
+.deal_of_day{
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    font-size: 15px;
+    margin-top: 12px;
+}
+#scroll{
+    margin: 10px 0px;
+    background-color: rgba(237, 110, 37, 0.239);
+}
+.pics{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 400px ;
+}
+.pics1{
+    height: 135px;
+    width: 200px;
+    margin: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    border-radius: 11px;
+}
+#pic1{
+    background-color: rgba(86, 86, 241, 0.83);
+}
+#pic2{
+    background-color: rgba(255, 255, 0, 0.727);
+}
+#pic3{
+    background-color: rgba(248, 51, 51, 0.821);
+}
+#pic4{
+    background-color: rgba(69, 188, 69, 0.822);
+}
+.pics1:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgba(0, 255, 255, 0.74);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.phone{
+    display: grid; 
+    grid-template-columns: 253px 253px 252px 254px 9px;
+}
+.phone img{
+    margin-left: 14px;
+    height: 369px;
+    width: 222px;
+    border-radius: 28px
+}
+.back{
+    background-color: aquamarine;
+    text-align: center;
+    height: 30px;
+    padding-top: 6px;
+    font-size: 22px;
+    margin-top: 17px;
+}
+.back a{
+    color: black;
+}
+.phone1:hover{
+    transform: scale(1.1,1.1);
+}
+#About{
+    border: 3px solid burlywood;
+    background-color: rgba(17, 14, 11, 0.589);
+    color: aliceblue;
+}
+#About h2{
+    text-align: center;
+}
+#Services{
+    border: 3px solid burlywood;
+    background-color: rgba(17, 14, 11, 0.589);
+    color: aliceblue;
+}
+#Services h2{
+    text-align: center;
+}
+#Contactus{
+    border: 3px solid burlywood;
+    background-color: rgba(17, 14, 11, 0.589);
+    color: aliceblue;
+}
+#Contactus h2,p{
+    text-align: center;
+}
+#Contactus{
+    margin-bottom: 0px;
+}
+.flex{
+    margin: 0px 1px;
+    height: 18px;
+    background-color: rgba(11, 12, 13, 0.526);
+    color: beige;
+}
